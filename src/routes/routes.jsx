@@ -12,7 +12,7 @@ function Router() {
     return (
         <Routes>
             <Route element={<DefaultLayout />}>
-            <Route path="/dev-movies" element={<Home />}/>
+            <Route path="/" element={<Home />}/>
             <Route path='/filmes' element={<Movies />} />
             <Route path='/series' element={<Series />} />
             <Route path='/detalhe/:id' element={<Detail />} />
