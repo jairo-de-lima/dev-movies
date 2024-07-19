@@ -12,11 +12,7 @@ function Router() {
     return (
         <Routes>
             <Route element={<DefaultLayout />}>
-<<<<<<< HEAD
             <Route path="/dev-movies" element={<Home />}/>
-=======
-            <Route path="/" element={<Home />}/>
->>>>>>> e8937acf44c57c938ba91aa546f00b088323f4b1
             <Route path='/filmes' element={<Movies />} />
             <Route path='/series' element={<Series />} />
             <Route path='/detalhe/:id' element={<Detail />} />
