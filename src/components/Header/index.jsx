@@ -22,7 +22,7 @@ function Header() {
         <img src={Logo} alt="logo-dev-movies" />
         <Navbar>
           <Li isActive={pathname === '/'}>
-            <Link to={"/"}>Home</Link>
+            <Link to={"/dev-movies"}>Home</Link>
           </Li>
           <Li isActive={pathname.includes('filmes')}>
             <Link to={"/filmes"}>Filmes</Link>
